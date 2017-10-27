@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#error {
+  color: firebrick
+}
+
+#info {
+  color: cornflowerblue;
+}
+
+#tournament-status {
+  background: #1d2128;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 10%;
+}
+
+#team-names {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#tournament-status__content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.status {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.status--finished {
+  background: #00c9cf;
+}
+
+.status--todo {
+  background: #3e4653;
+}
